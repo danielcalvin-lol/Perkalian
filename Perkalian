@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int B1; //B1=bilangan bulat 1
+int B2; //B2=bilangan bulat 2
+int Hasil;
+
+cout<<"Masukkan bilangan bulat B1 : ";
+cin>>B1;
+cout<<endl;
+cout<<"Masukkan bilangan bulat B2 : ";
+cin>>B2;
+cout<<endl;
+
+Hasil = B1 * B2;
+
+cout<<"Hasil = " <<Hasil ;
+
+return 0;
+}
